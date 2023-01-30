@@ -22,7 +22,9 @@ function App() {
           <section className="section__container">
             <img src={LogoNuKenzieFrontPage} alt="Logo Nu Kenzie" />
             <div className="section__box">
-              <h1 className="section__title">Centralize o controle das suas finanças</h1>
+              <h1 className="section__title">
+                Centralize o controle das suas finanças
+              </h1>
               <p className="section__paragraph">de forma rápida e segura</p>
               <button className="section__button" type="button" onClick={Login}>
                 Iniciar
@@ -41,28 +43,42 @@ function App() {
           </header>
           <main className="mainPage__container">
             <form className="form__container">
-              <div>
-                <label htmlFor="description">Descrição</label>
+              <div className="form__box">
+                <label className="form__title" htmlFor="description">
+                  Descrição
+                </label>
                 <input
+                  className="form__input"
                   type="text"
                   placeholder="Digite aqui sua descrição"
                 ></input>
-                <p>Ex: Compra de roupas</p>
+                <p className="form__paragraph">Ex: Compra de roupas</p>
               </div>
-              <div>
-                <label htmlFor="value">Valor</label>
-                <input type="number" placeholder="1" />
+              <div className="form__valueBox">
+                <div>
+                  <label className="inputValueNumber__title" htmlFor="value">Valor</label>
+                  <div className="inputValueNumber__container">
+                    <input className="inputValueNumber__input" type="number" placeholder="1" />
+                    <p className="inputValueNumber__paragraph">R$</p>
+                  </div>
+                </div>
+                <div className="inputSelect__container">
+                  <h1 className="inputSelect__title">Tipo de Valor</h1>
+                  <select className="inputSelect__select" name="" id="">
+                    <option value="">Entrada</option>
+                    <option value="">Saída</option>
+                  </select>
+                </div>
               </div>
-              <div>
-                <select name="" id="">
-                  <option value="">Entrada</option>
-                  <option value="">Saída</option>
-                </select>
-              </div>
+              <button className="form__button" type="button">
+                Inserir Valor
+              </button>
             </form>
-            <section>
-              <h3>Reusumo financeiro</h3>
-              <h1>Você ainda não poussui nenhum lançamento</h1>
+            <section className="sectionPage__container">
+              <h1 className="sectionPage__title">Reusumo financeiro</h1>
+              <p className="sectionPage__paragraph">
+                Você ainda não poussui nenhum lançamento
+              </p>
               <img src={NoCard} alt="No Card Image" />
             </section>
           </main>
