@@ -1,0 +1,59 @@
+.optionList__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    padding: 8px 13px 11px 18px;
+  
+    width: 560px;
+    height: 87px;
+  
+    background: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .optionList__box {
+    display: flex;
+    flex-direction: column;
+  
+    width: 337px;
+  }
+  
+  .optionList__title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+  
+    color: #212529;
+  }
+  
+  .optionList__valueType {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+  
+    padding-top: 8px;
+  
+    color: #343a40;
+  }
+  
+  .optionList__value {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+  
+    padding-top: 10px;
+  
+    color: #212529;
+  }
+  
+  .optionList__image {
+    padding-top: 10px;
+  }
+  

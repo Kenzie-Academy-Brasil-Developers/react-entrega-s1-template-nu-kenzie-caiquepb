@@ -1,0 +1,28 @@
+.sectionPage__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionPage__title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #212529;
+
+  padding-bottom: 32px;
+}
+
+.sectionPage__paragraph {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+
+  color: #343a40;
+
+  padding-bottom: 27px;
+}
