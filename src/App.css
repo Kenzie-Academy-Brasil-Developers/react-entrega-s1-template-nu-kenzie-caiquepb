@@ -3,13 +3,22 @@
 /* main page */
 .mainPage__container {
   display: flex;
-  gap: 58px;
-
-  padding: 39px 258px 0 258px
+  flex-direction: column;
+  gap: 24px;
 }
 
 .mainPage__box{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .mainPage__container {
+    flex-direction: row;
+    gap: 58px;
+
+    padding: 39px 17.25%;
+  }
 }

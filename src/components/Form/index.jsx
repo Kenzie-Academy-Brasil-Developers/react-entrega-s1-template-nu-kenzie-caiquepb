@@ -38,7 +38,7 @@ export const Form = ({ listTransactions, setListTransactions }) => {
         <p className="form__paragraph">Ex: Compra de roupas</p>
       </div>
       <div className="form__valueBox">
-        <div>
+        <div className="inputValueNumber__box">
           <label className="inputValueNumber__title" htmlFor="value">
             Valor
           </label>

@@ -19,7 +19,7 @@ export const FrontPage = ({ setPage }) => {
           </button>
         </div>
       </section>
-      <img src={FrontPageImage} alt="Front Page Image" />
+      <img className="frontPageImage" src={FrontPageImage} alt="Front Page Image" />
     </main>
   );
 }
