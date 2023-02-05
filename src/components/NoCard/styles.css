@@ -1,4 +1,4 @@
-.sectionPage__container {
+.noCard__container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -9,7 +9,7 @@
     padding: 0px 15px 36px 16px;
 }
 
-.sectionPage__title {
+.noCard__title {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
@@ -19,7 +19,7 @@
   color: #212529;
 }
 
-.sectionPage__paragraph {
+.noCard__paragraph {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
@@ -30,9 +30,12 @@
 }
 
 @media (min-width: 1024px) {
-  .sectionPage__container {
+  .noCard__container {
     padding: 0;
-    width: 100%;
+
+    width: 45%;
+    margin: 0;
+    margin-right: 5%;
 }
 
 }
